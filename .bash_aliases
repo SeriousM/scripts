@@ -1,5 +1,8 @@
 # dont forget to add this file to the .bash_profile with 'source ~/.bash_aliases'
 
+# http://stackoverflow.com/questions/5367068/clear-the-ubuntu-bash-screen-for-real
+alias cls='printf "\033c"'
+
 source /etc/bash_completion.d/git
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
