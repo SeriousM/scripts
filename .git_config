@@ -1,0 +1,7 @@
+[user]
+  email = <github email>
+	name = <github username>
+[color]
+        diff = auto
+        status = auto
+        branch = auto
