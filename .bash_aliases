@@ -1,7 +1,24 @@
-# dont forget to add this file to the .bash_profile with 'source ~/.bash_aliases'
-
-# http://stackoverflow.com/questions/5367068/clear-the-ubuntu-bash-screen-for-real
 alias cls='printf "\033c"'
+
+# partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
+alias la="ls -a"
+alias ll="ls -l"
+alias glog="git log --color --oneline"
+alias gl="glog --graph"
+alias gp="git push"
+alias gco="git checkout"
+alias gcl="git clone"
+alias gg="git gui"
+alias gs="git status"
+alias gc="git commit"
+alias gd="git diff --no-prefix"
+alias r="rails"
+alias hr="heroku run"
+alias composer="php composer.phar"
+alias ..="cd .."
+alias hl="pygmentize"
+alias b="bundle"
+alias be="bundle exec"
 
 source /etc/bash_completion.d/git
 
