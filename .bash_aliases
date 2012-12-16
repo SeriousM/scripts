@@ -1,11 +1,15 @@
 alias cls='printf "\033c"'
 
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
+alias ls="ls -F --color --show-control-chars"
 alias la="ls -a"
 alias ll="ls -l"
 alias glog="git log --color --oneline"
 alias gl="glog --graph"
 alias gp="git push"
+alias ga="git add"
+alias gr="git rm"
+alias ga="git branch"
 alias gco="git checkout"
 alias gcl="git clone"
 alias gg="git gui"
