@@ -23,6 +23,7 @@ alias ..="cd .."
 alias hl="pygmentize"
 alias b="bundle"
 alias be="bundle exec"
+alias bi="bundle install"
 
 source /etc/bash_completion.d/git
 
