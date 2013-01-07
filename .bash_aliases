@@ -25,6 +25,8 @@ alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
 
+alias rp="bundle exec pry -r ./config/environment"
+
 source /etc/bash_completion.d/git
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
