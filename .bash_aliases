@@ -25,7 +25,7 @@ alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
 
-alias rp="bundle exec pry -r ./config/environment"
+alias rpry="bundle exec pry -r ./config/environment"
 
 source /etc/bash_completion.d/git
 
