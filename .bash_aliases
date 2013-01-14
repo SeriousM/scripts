@@ -1,3 +1,5 @@
+# important: add 'source ~/.bash_aliases' to .bash_profile eof
+
 alias cls='printf "\033c"'
 
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
