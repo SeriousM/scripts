@@ -29,7 +29,15 @@ alias bi="bundle install"
 
 alias rpry="bundle exec pry -r ./config/environment"
 
-source /etc/bash_completion.d/git
+# linux
+if [ -e /etc/bash_completion.d/git ]
+then
+  source /etc/bash_completion.d/git
+#win
+elif [ -e /usr/etc/git-completion.bash ]
+then
+	source /usr/etc/git-completion.bash
+fi
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
