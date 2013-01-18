@@ -36,7 +36,7 @@ then
 #win
 elif [ -e /usr/etc/git-completion.bash ]
 then
-	source /usr/etc/git-completion.bash
+  source /usr/etc/git-completion.bash
 fi
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
