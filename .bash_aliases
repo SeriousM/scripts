@@ -28,12 +28,10 @@ alias bi="bundle install"
 alias rpry="bundle exec pry -r ./config/environment"
 
 # linux
-if [ -e /etc/bash_completion.d/git ]
-then
+if [ -e /etc/bash_completion.d/git ]; then
   source /etc/bash_completion.d/git
-#win
-elif [ -e /usr/etc/git-completion.bash ]
-then
+# win
+elif [ -e /usr/etc/git-completion.bash ]; then
   source /usr/etc/git-completion.bash
 fi
 
