@@ -20,7 +20,6 @@ alias gc="git commit"
 alias gd="git diff --no-prefix"
 alias r="rails"
 alias hr="heroku run"
-alias ..="cd .."
 alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
@@ -31,6 +30,22 @@ alias hf=’history | grep $1′
 alias pf=’ps -e | grep $1′
 
 alias rpry="bundle exec pry -r ./config/environment"
+
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+\)\|[a-fA-F0-9:]\+\)' | sed -e 's/inet6* //'"
+
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
 
 # linux
 if [ -e /etc/bash_completion.d/git ]
