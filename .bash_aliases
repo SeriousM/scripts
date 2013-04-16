@@ -25,6 +25,11 @@ alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
 
+# http://www.ubuntujourneyman.com/2011/05/24/100/
+alias h.=history
+alias hf=’history | grep $1′
+alias pf=’ps -e | grep $1′
+
 alias rpry="bundle exec pry -r ./config/environment"
 
 # linux
