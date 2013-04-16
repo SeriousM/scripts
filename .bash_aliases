@@ -3,7 +3,8 @@
 alias cls='printf "\033c"'
 
 # enable coloring for grep
-alias grep="grep --color=auto $@"
+alias grep="grep --color=auto $1"
+alias egrep="egrep --color=auto $1"
 
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
 alias ls="ls -F --color --show-control-chars"
@@ -28,7 +29,7 @@ alias be="bundle exec"
 alias bi="bundle install"
 
 # http://www.ubuntujourneyman.com/2011/05/24/100/
-alias h.="history"
+alias h.="history | egrep \"^(.* ) \""
 alias hf="history | grep -i $1"
 alias pf="ps -e | grep -i $1"
 
