@@ -7,7 +7,7 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/scripts`, with `~/scripts` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/SeriousM/scripts.git && cd scripts && source bootstrap.sh && cd .. && rm -rf scripts
+git clone https://github.com/SeriousM/scripts.git && cd scripts && source bootstrap.sh;cd ..;rm -rf scripts
 ```
 
 To update, `cd` into your local `scripts` repository and then:
