@@ -2,6 +2,9 @@
 
 alias cls='printf "\033c"'
 
+# enable coloring for grep
+alias grep="grep --color=auto $@"
+
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
 alias ls="ls -F --color --show-control-chars"
 alias la="ls -a"
@@ -46,16 +49,6 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+
 
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
-
-# linux
-if [ -e /etc/bash_completion.d/git ]
-then
-  source /etc/bash_completion.d/git
-#win
-elif [ -e /usr/etc/git-completion.bash ]
-then
-  source /usr/etc/git-completion.bash
-fi
 
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
