@@ -1,0 +1,26 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#d97231"
+  focus = mouse
+[keybindings]
+[profiles]
+  [[default]]
+    login_shell = True
+    background_darkness = 0.69
+    background_type = transparent
+    cursor_color = "#37cd2e"
+    foreground_color = "#ffffff"
+    cursor_shape = ibeam
+    copy_on_selection = True
+    background_color = "#300a24"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
