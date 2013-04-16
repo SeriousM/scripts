@@ -28,6 +28,9 @@ alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
 
+alias rmf="rm -rf"
+alias mkd="mkdir"
+
 # http://www.ubuntujourneyman.com/2011/05/24/100/
 alias h.="history | egrep \"^(.* ) \""
 alias hf="history | grep -i $1"
