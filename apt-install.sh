@@ -22,7 +22,7 @@ rvm requirements
 
 rvm install 1.9.3
 rvm use 1.9.3
-rvm --default use 1.9.3-p327
+rvm --default use 1.9.3-p392
 
 gem install bundler
 gem install rails -v 3.2.9
