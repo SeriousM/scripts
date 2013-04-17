@@ -34,6 +34,7 @@ alias mkd="mkdir"
 alias h.="history | grep -E \"^(.* ) \""
 alias hf="history | grep -i $1"
 alias pf="ps -e | grep -i $1"
+alias pk="kill -9"
 
 alias rpry="bundle exec pry -r ./config/environment"
 
