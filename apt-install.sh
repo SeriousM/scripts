@@ -11,7 +11,7 @@ sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
 sudo apt-get update
 
 # build-essential for g++ compiling
-sudo apt-get install -y sublime-text build-essential terminator curl
+sudo apt-get install -y sublime-text build-essential terminator curl mongodb
 
 # install / upgrade rvm
 curl -L get.rvm.io | bash -s stable --auto
