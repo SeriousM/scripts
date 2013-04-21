@@ -4,6 +4,7 @@ git pull
 function doIt() {
   rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "README.md" --exclude "apt-install.sh" -av . ~
   . apt-install.sh
+  . auth-check.sh
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
