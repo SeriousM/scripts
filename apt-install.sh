@@ -34,7 +34,7 @@ sudo sh <<SCRIPT
 
 	# build-essential is for g++ compiling
 	echo "start installing / updating packages"
-	apt-get install -y heroku git tig sublime-text build-essential terminator curl mongodb
+	apt-get install -y heroku git tig gitg sublime-text build-essential terminator curl mongodb
 SCRIPT
 
 # install / upgrade rvm
