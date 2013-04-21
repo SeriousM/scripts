@@ -5,6 +5,7 @@ function doIt() {
   . sync-dotfiles.sh
   . apt-install.sh
   . auth-check.sh
+  echo "We are done, thank you for using our services!"
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt

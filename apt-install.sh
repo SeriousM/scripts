@@ -61,5 +61,3 @@ echo "installing bundler"
 gem install bundler
 echo "installing rails 3.2.9"
 gem install rails -v 3.2.9
-
-echo "We are done, thank you for using our services!"
