@@ -1,4 +1,4 @@
-# Bernhard’s dotfiles
+# SeriousM’s dotfiles
 
 ## Installation
 
