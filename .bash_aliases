@@ -2,9 +2,6 @@
 
 alias cls='printf "\033c"'
 
-# enable coloring for grep
-alias grep="grep --color=auto $1"
-
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
 alias ls="ls -F --color --show-control-chars"
 alias la="ls -a"

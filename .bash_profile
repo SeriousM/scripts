@@ -1,6 +1,9 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH"
 
+# enable coloring for grep
+export GREP_OPTIONS='--color=auto'
+
 source ~/.bash_aliases
 
 # Load RVM into a shell session *as a function*
