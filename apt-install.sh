@@ -34,30 +34,5 @@ sudo sh <<SCRIPT
 
 	# build-essential is for g++ compiling
 	echo "start installing / updating packages"
-	apt-get install -y heroku git tig gitg sublime-text build-essential terminator curl mongodb
+	apt-get install -y flashplugin-installer gsfonts-x11 heroku git tig gitg sublime-text build-essential terminator curl mongodb
 SCRIPT
-
-# install / upgrade rvm
-echo "installing rvm"
-curl -s -L get.rvm.io | bash -s stable --auto
-. ~/.bash_profile
-rvm reload
-
-echo "enable rvm autolibs"
-rvm autolibs enable > /dev/null
-
-echo "installing rvm requirements"
-rvm requirements > /dev/null
-
-echo "installing ruby 1.9.3"
-rvm install 1.9.3
-
-echo "setting up ruby 1.9.3 as default version to use"
-rvm use 1.9.3
-rvm --default use 1.9.3-p392
-rvm rvmrc warning ignore allGemfiles
-
-echo "installing bundler"
-gem install bundler
-echo "installing rails 3.2.9"
-gem install rails -v 3.2.9
