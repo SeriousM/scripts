@@ -6,9 +6,6 @@ export GREP_OPTIONS='--color=auto'
 
 source ~/.bash_aliases
 
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 
@@ -44,3 +41,9 @@ export HISTIGNORE="[ \t]*:.:ls:ll:la:cd\ *:h.:hf\ *:cls:clear:history*:-:..*:pwd
 # Prefer US English and use UTF-8
 export LANG="en_US"
 export LC_ALL="en_US.UTF-8"
+
+# Add rbenv to the path variable
+[[ -s "$HOME/.rbenv/bin" ]] && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
