@@ -28,6 +28,7 @@ alias hr="heroku run"
 alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
+alias rs="exec $SHELL -l"
 
 alias rmf="rm -rf"
 alias mkd="mkdir"
