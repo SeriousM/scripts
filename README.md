@@ -41,7 +41,7 @@ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 echo "Installing ruby-build"
 git clone git://github.com/sstephenson/ruby-build.git /tmp/ruby-build
 cd /tmp/ruby-build
-./install.sh
+sudo ./install.sh
 cd -
 rm -rf /tmp/ruby-build
 
