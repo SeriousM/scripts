@@ -114,5 +114,5 @@ if [ $? -eq 0 ]; then \
   fi)'$BICyan'»'$Color_Off' "; \
 else \
   # @2 - Prompt when not in GIT repo
-  echo "'$BIYellow$PathShort''$BICyan'»'$Color_Off' "; \
+  echo "'$IGreen$PathShort''$BICyan'»'$Color_Off' "; \
 fi)'
