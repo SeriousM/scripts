@@ -5,6 +5,7 @@ export PATH="$HOME/bin:$PATH"
 export GREP_OPTIONS='--color=auto'
 
 source ~/.bash_aliases
+source ~/.bash_prompt
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
