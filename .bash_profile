@@ -25,6 +25,7 @@ done
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
+[ -f /etc/bash_completion.d/git ] && source /etc/bash_completion.d/git
 
 # win: run at least the git completion
 if [ -e /usr/etc/git-completion.bash ]
