@@ -56,7 +56,7 @@ echo "updating system gems"
 gem update --system
 echo "installing gems bundler and rails"
 gem install bundler
-gem install rails -v 3.2.9
+gem install rails -v 3.2.13
 
 echo "reload shell"
 exec $SHELL -l
@@ -95,8 +95,8 @@ rvm rvmrc warning ignore allGemfiles
 
 echo "installing bundler"
 gem install bundler
-echo "installing rails 3.2.9"
-gem install rails -v 3.2.9
+echo "installing rails 3.2.13"
+gem install rails -v 3.2.13
 
 echo "reload shell"
 exec $SHELL -l
