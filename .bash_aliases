@@ -15,12 +15,12 @@ alias gphm="git push heroku master;"
 alias ga="git add"
 alias gr="git rm"
 alias ga="git branch"
+alias gc="git commit"
 alias gco="git checkout"
 alias gcl="git clone"
 alias gg="git gui"
 alias gundo="git checkout -- "
 alias gs="git status -s"
-alias gc="git commit -m"
 alias gca="git commit -am"
 alias gd="git diff --no-prefix"
 alias r="rails"
@@ -56,3 +56,8 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+
 
 # Enhanced WHOIS lookups
 alias whois="whois -h whois-servers.net"
+
+function mkcd(){
+  mkdir $1;
+  cd $1;
+}
