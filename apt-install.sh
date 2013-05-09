@@ -26,7 +26,7 @@ sudo sh <<SCRIPT
 
 	# add the repo for sublime-text
 	echo "add sublime repository to apt"
-	add-apt-repository -y ppa:webupd8team/sublime-text-2 > /dev/null 2>1&
+	add-apt-repository -y ppa:webupd8team/sublime-text-2 > /dev/null
 	
 	# update sources
 	echo "updating apt-get sources"
