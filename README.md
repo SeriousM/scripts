@@ -41,7 +41,10 @@ git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
 echo "Installing ruby-build"
 git clone git://github.com/sstephenson/ruby-build.git /tmp/ruby-build
 cd /tmp/ruby-build
+
 sudo ./install.sh
+# export PREFIX=~ && ./install.sh # use this if you cannot sudo
+
 cd -
 rm -rf /tmp/ruby-build
 
