@@ -48,10 +48,10 @@ sudo ./install.sh
 cd -
 rm -rf /tmp/ruby-build
 
-echo "Installing ruby 1.9.3"
-rbenv install 1.9.3-p392
-echo "setting ruby 1.9.3 as global default"
-rbenv global 1.9.3-p392
+echo "Installing ruby 2.0.0-p247"
+rbenv install 2.0.0-p247
+echo "setting ruby 2.0.0-p247 as global default"
+rbenv global 2.0.0-p247
 echo "recreating rbenv shims"
 rbenv rehash
 
@@ -59,7 +59,7 @@ echo "updating system gems"
 gem update --system
 echo "installing gems bundler and rails"
 gem install bundler
-gem install rails -v 3.2.13
+gem install rails
 
 echo "reload shell"
 exec $SHELL -l
