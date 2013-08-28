@@ -27,6 +27,9 @@ sudo sh <<SCRIPT
 	# add the repo for sublime-text
 	echo "add sublime repository to apt"
 	add-apt-repository -y ppa:webupd8team/sublime-text-2 > /dev/null
+
+	# add the repo for nodejs
+	add-apt-repository ppa:chris-lea/node.js
 	
 	# update sources
 	echo "updating apt-get sources"
@@ -34,5 +37,5 @@ sudo sh <<SCRIPT
 
 	# build-essential is for g++ compiling
 	echo "start installing / updating packages"
-	apt-get install -y flashplugin-installer gsfonts-x11 heroku git tig gitg sublime-text build-essential terminator curl mongodb
+	apt-get install -y flashplugin-installer gsfonts-x11 heroku git tig gitg sublime-text build-essential terminator curl mongodb python-software-properties python g++ make nodejs
 SCRIPT
