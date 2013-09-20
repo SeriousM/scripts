@@ -1,3 +1,5 @@
+[ -z "$__git_ps1" ] && source ~/.git_prompt
+
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
@@ -110,7 +112,7 @@ if [ $? -eq 0 ]; then \
     echo $(__git_ps1 " '$IYellow'✓'$BIGreen'%s'$IYellow'✓"); \
   else \
     # @5 - Changes to working tree
-    echo $(__git_ps1 " '$IYellow'⚡'$BIRed'%s'$IYellow'⚡"); \
+    echo $(__git_ps1 " '$IYellow'✗'$BIRed'%s'$IYellow'✗"); \
   fi)'$BICyan'»'$Color_Off' "; \
 else \
   # @2 - Prompt when not in GIT repo
