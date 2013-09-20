@@ -45,7 +45,7 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 # [ \t]* = suppress history logging by start the command with a space
-export HISTIGNORE="[ \t]*:.:ls:ll:la:cd\ *:h.:hf\ *:cls:clear:history*:-:..*:pwd:[bf]g:exit:date:* --help"
+export HISTIGNORE="[ \t]*:.:ls:ll:la:h.:hf\ *:cls:clear:history*:-:..*:pwd:[bf]g:exit:date"
 
 # Prefer US English and use UTF-8
 export LANG="en_US"
