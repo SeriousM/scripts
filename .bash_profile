@@ -59,3 +59,6 @@ export LC_ALL="en_US.UTF-8"
 
 # Add nitrous.io auto-parts if existing
 [[ -s "$HOME/.parts/autoparts/bin" ]] && export PATH="$HOME/.parts/autoparts/bin:$PATH" && eval "$(parts init -)"
+
+# Start node version manager
+[[ -s "$HOME/.nvm/nvm.sh" ]] && source ~/.nvm/nvm.sh
