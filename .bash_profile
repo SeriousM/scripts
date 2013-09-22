@@ -36,8 +36,11 @@ fi
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2 | tr ' ' '\n')" scp sftp ssh
 
-# Make vim the default editor
+# Make sublime the default editor
 export EDITOR="subl"
+
+# enable command line color
+export CLICOLOR=1
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
