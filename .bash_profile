@@ -64,4 +64,7 @@ export LC_ALL="en_US.UTF-8"
 [[ -s "$HOME/.parts/autoparts/bin" ]] && export PATH="$HOME/.parts/autoparts/bin:$PATH" && eval "$(parts init -)"
 
 # Start node version manager
-[[ -s "$HOME/.nvm/nvm.sh" ]] && source ~/.nvm/nvm.sh
+[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+
+# Run additional file if existing
+[[ -s "$HOME/.bash_env" ]] && source "$HOME/.bash_env"
