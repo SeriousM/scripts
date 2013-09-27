@@ -30,6 +30,7 @@ alias be="bundle exec"
 alias bi="bundle install"
 alias rs="exec $SHELL -l"
 alias fp="readlink -f"
+alias space="df -kh ."
 
 alias rmf="rm -rf"
 alias mkd="mkdir"
