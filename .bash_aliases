@@ -31,6 +31,7 @@ alias bi="bundle install"
 alias rs="exec $SHELL -l"
 alias fp="readlink -f"
 alias space="df -kh ."
+alias spaceof="du -skh"
 
 alias rmf="rm -rf"
 alias mkd="mkdir"
