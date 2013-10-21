@@ -32,6 +32,7 @@ alias rs="exec $SHELL -l"
 alias fp="readlink -f"
 alias space="df -kh ."
 alias spaceof="du -skh"
+alias curldl="curl -OJL"
 
 alias rmf="rm -rf"
 alias mkd="mkdir"
