@@ -48,10 +48,10 @@ sudo ./install.sh
 cd -
 rm -rf /tmp/ruby-build
 
-echo "Installing ruby 2.0.0-p247"
-rbenv install 2.0.0-p247
-echo "setting ruby 2.0.0-p247 as global default"
-rbenv global 2.0.0-p247
+echo "Installing ruby 2.1.0"
+rbenv install 2.1.0
+echo "setting ruby 2.1.0 as global default"
+rbenv global 2.1.0
 echo "recreating rbenv shims"
 rbenv rehash
 
