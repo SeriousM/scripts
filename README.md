@@ -32,6 +32,17 @@ cd; curl -#L https://github.com/SeriousM/scripts/tarball/master | tar -xzv --str
 
 To update later on, just run that command again.
 
+### File-Sync only
+
+```bash
+. sync-files.sh
+```
+
+### Extending the default script
+
+It's not recomended to change the schripts because they get overwritten with the next update.
+Modifying the `.bash_env` file is a better way to add custom scripts.
+
 ### Installing rbenv
 
 ```bash
