@@ -57,8 +57,8 @@ export LC_ALL="en_US.UTF-8"
 # Add rbenv to the path variable
 [[ -s "$HOME/.rbenv/bin" ]] && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"
 
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# Add RVM Path and load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && PATH="$PATH:$HOME/.rvm/bin" && source "$HOME/.rvm/scripts/rvm"
 
 # Add nitrous.io auto-parts if existing
 [[ -s "$HOME/.parts/autoparts/bin" ]] && export PATH="$HOME/.parts/autoparts/bin:$PATH" && eval "$(parts init -)"
