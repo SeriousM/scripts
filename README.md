@@ -136,7 +136,7 @@ In the end of `~/.bashrc` or `~/.bash_env`:
 if which tmux 2>&1 >/dev/null; then
     [[ ( $TERM == "screen" ) && ( -z $TMUX ) ]] && tmux attach \
     && echo '+---------------------------+' \
-    && echo '| The tmux prefix is ctrl-n |' \
+    && echo '| The tmux prefix is ctrl-y |' \
     && echo '+---------------------------+' \
     && exit
 fi
