@@ -116,5 +116,32 @@ echo "reload shell"
 exec $SHELL -l
 ```
 
+### TMUX
+
+[Crash Course](http://robots.thoughtbot.com/a-tmux-crash-course), [dotFiles](https://github.com/fatih/dotfiles/blob/master/tmuxconf)
+
+### [TMUX && Koding.com](https://koding.com/Activity/keeping-your-shell-session-alive-with-tmux)
+
+Install tmux:
+```bash
+sudo apt-get install tmux
+```
+Write in `~/.tmux.conf` (ctrl-n will be the tmux prefix, as ctrl-b conflicts with koding's screen session. See the tmux manual pages to understand how to use the prefix command.):
+```bash
+set-option -g prefix C-n
+new-session
+```
+In the end of `~/.bashrc` or `~/.bash_env`:
+```bash
+if which tmux 2>&1 >/dev/null; then
+    [[ ( $TERM == "screen" ) && ( -z $TMUX ) ]] && tmux attach \
+    && echo '+---------------------------+' \
+    && echo '| The tmux prefix is ctrl-n |' \
+    && echo '+---------------------------+' \
+    && exit
+fi
+```
+Now, you can close your terminal window, it comes back when you reopen it within 15 minutes. The session remains alive during 15 minutes, until koding shuts down your VM. I wish they hibernated it instead.
+
 ### Credits
 [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
