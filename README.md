@@ -126,9 +126,9 @@ Install tmux:
 ```bash
 sudo apt-get install tmux
 ```
-Write in `~/.tmux.conf` (ctrl-n will be the tmux prefix, as ctrl-b conflicts with koding's screen session. See the tmux manual pages to understand how to use the prefix command.):
+Write in `~/.tmux.conf` (ctrl-y will be the tmux prefix, as ctrl-b conflicts with koding's screen session. See the tmux manual pages to understand how to use the prefix command.):
 ```bash
-set-option -g prefix C-n
+set-option -g prefix C-y
 new-session
 ```
 In the end of `~/.bashrc` or `~/.bash_env`:
