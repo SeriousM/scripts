@@ -118,7 +118,7 @@ exec $SHELL -l
 
 ### TMUX
 
-[Crash Course](http://robots.thoughtbot.com/a-tmux-crash-course), [dotFiles](https://github.com/fatih/dotfiles/blob/master/tmuxconf)
+[Crash Course](http://robots.thoughtbot.com/a-tmux-crash-course), [dotFiles](https://github.com/fatih/dotfiles/blob/master/tmuxconf), [practical-tmux](https://mutelight.org/practical-tmux)
 
 ### [TMUX && Koding.com](https://koding.com/Activity/keeping-your-shell-session-alive-with-tmux)
 
