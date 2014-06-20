@@ -10,6 +10,11 @@ You can clone the repository wherever you want. (I like to keep it in `~/Project
 git clone https://github.com/SeriousM/scripts.git && cd scripts && set -- -f && source bootstrap.sh ; cd .. ; rm -rf scripts
 ```
 
+Sync files only
+```bash
+git clone https://github.com/SeriousM/scripts.git && cd scripts && source sync-fiels.sh ; cd .. ; rm -rf scripts
+```
+
 To update, `cd` into your local `scripts` repository and then:
 
 ```bash
