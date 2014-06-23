@@ -148,5 +148,7 @@ fi
 ```
 Now, you can close your terminal window, it comes back when you reopen it within 15 minutes. The session remains alive during 15 minutes, until koding shuts down your VM. I wish they hibernated it instead.
 
+See [the Wiki for more tmux](https://github.com/SeriousM/scripts/wiki/tmux)
+
 ### Credits
 [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
