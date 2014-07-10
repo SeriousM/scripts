@@ -1,7 +1,15 @@
 [user]
-  email = masta2ooo@gmail.com
-  name = SeriousM
+    email = masta2ooo@gmail.com
+    name = SeriousM
+[core]
+    askpass = /bin/echo
+    editor = nano
+    whitespace = off
+[advice]
+    statusuoption = false
 [color]
-  diff = auto
-  status = auto
-  branch = auto
+    ui = true
+    diff = auto
+    status = auto
+    branch = auto
+    
