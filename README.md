@@ -150,5 +150,9 @@ Now, you can close your terminal window, it comes back when you reopen it within
 
 See [the Wiki for more tmux](https://github.com/SeriousM/scripts/wiki/tmux)
 
+### Troubleshooting
+`bash: $'\r': command not found`: that means that a windows-line-ending was found in one of the executed scripts. usually this error can be found in the `.bash_env`.
+To fix this error you need to delete every line ending and re-enter them.
+
 ### Credits
 [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
