@@ -4,8 +4,9 @@ alias cls='printf "\033c"'
 
 # partially copied from https://raw.github.com/charliesome/conf/master/config/bash_profile.erb
 alias ls="ls -F --color --show-control-chars"
-alias la="ls -a"
-alias ll="ls -l"
+alias la="ls -A"
+alias ll="ls -alF"
+alias l="ls -CF"
 alias glog="git log --color --oneline"
 alias gl="glog --graph"
 alias gp="git pull"
